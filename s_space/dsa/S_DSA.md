@@ -4,6 +4,20 @@ Goal: 1-2 problems a day, logged here. Code stays on LeetCode — this file is j
 
 | Date       | Problem  | Difficulty | Topic           | Link                                      | Notes                                                              |
 |------------|----------|------------|-----------------|--------------------------------------------|---------------------------------------------------------------------|
-| 2026-06-22 | max ballons | Easy       | Hashing  | https://leetcode.com/problems/maximum-number-of-balloons/description/ | count frequnce using a hashmap then divide its frequency by the number of times it appears in given word. The minimum of these values gives the maximum number of word instances that can be formed. Time Complexity: O(n), Space Complexity: O(1)|
+| 2026-06-22 | 1189. max ballons | Easy       | Hashing  | https://leetcode.com/problems/maximum-number-of-balloons | count frequnce using a hashmap then divide its frequency by the number of times it appears in given word. The minimum of these values gives the maximum number of word instances that can be formed. Time Complexity: O(n), Space Complexity: O(1)|
+|2026-06-23  | 1190. Reverse Substrings Between Each Pair of Parentheses| Medium | Array,Stack,String | https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses | Used Stack with string dataType pushed the string reversed it(did take a hint)|
+|2026-06-23  | 33. Search in Rotated Sorted Array| Medium | Binarysearch | https://leetcode.com/problems/search-in-rotated-sorted-array | use binary search to find which side is sorted and does target present in it, complexity O(logn)|
+|2026-06-23  | 81. Search in Rotated Sorted Array II| Medium | Binarysearch | https://leetcode.com/problems/search-in-rotated-sorted-array-ii | use binary search to find which side is sorted and does target present in it and should add aditional check for duplicates, complexity O(logn)|
+|2026-06-23  | 153. Find Minimum in Rotated Sorted Array| Medium | Binarysearch | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array | use binary search to find which side contains the min, min can be at r as well complexity O(logn)|
+
+
+
+
+
+
+
+
+
+
 
 **Rule:** add a new row every day you solve something. Don't skip rows. Don't backfill lies.
