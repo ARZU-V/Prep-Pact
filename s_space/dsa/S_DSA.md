@@ -9,6 +9,8 @@ Goal: 1-2 problems a day, logged here. Code stays on LeetCode — this file is j
 |2026-06-23  | 33. Search in Rotated Sorted Array| Medium | Binarysearch | https://leetcode.com/problems/search-in-rotated-sorted-array | use binary search to find which side is sorted and does target present in it, complexity O(logn)|
 |2026-06-23  | 81. Search in Rotated Sorted Array II| Medium | Binarysearch | https://leetcode.com/problems/search-in-rotated-sorted-array-ii | use binary search to find which side is sorted and does target present in it and should add aditional check for duplicates, complexity O(logn)|
 |2026-06-23  | 153. Find Minimum in Rotated Sorted Array| Medium | Binarysearch | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array | use binary search to find which side contains the min, min can be at r as well complexity O(logn)|
+|2026-06-24  | 2399. Check Distances Between Same Letters| Easy | Array, String | https://leetcode.com/problems/check-distances-between-same-letters | fillup the array of(26,-1) then check if it matches with given array O(n) and space O(1)|
+|2026-06-24  | 869. Reordered Power of 2| Medium | String | https://leetcode.com/problems/reordered-power-of-2 | sort the given number n, loop around 31 powers of 2 sort it and check if it matches with n, O(dlogd) and space O(d) d-number of digits in n|
 
 
 
