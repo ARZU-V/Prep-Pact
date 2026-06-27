@@ -13,7 +13,9 @@ Goal: 1-2 problems a day, logged here. Code stays on LeetCode — this file is j
 |2026-06-24  | 869. Reordered Power of 2| Medium | String | https://leetcode.com/problems/reordered-power-of-2 | sort the given number n, loop around 31 powers of 2 sort it and check if it matches with n, O(dlogd) and space O(d) d-number of digits in n|
 |2026-06-25  | 1361. Validate Binary Tree Nodes| Medium | Tree, DFS | https://leetcode.com/problems/validate-binary-tree-nodes | Build the parent array. If any node gets two parents, return false. Count the roots (parent[i] == -1). If there isn't exactly one root, return false. If DFS tries to visit an already visited node, return false.
 If not all nodes were visited, return false. O(n) and space O(n)|
-
+|2026-06-27  | 3020. Find the Maximum Number of Elements in Subset| Medium | Array, Hashmap | https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset | when 1 is present then handle is seperately out of loop, if freq is 1 then len gets 1 else it gets +2 for mirroring & check the 1e9 case and if length is even remove the last and check for num*num. complexities: O(n) both|
+|2026-06-27  | 3020. Find the Maximum Number of Elements in Subset| Medium | Array, Hashmap | https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset | when 1 is present then handle is seperately out of loop, if freq is 1 then len gets 1 else it gets +2 for mirroring & check the 1e9 case and if length is even remove the last and check for num*num. complexities: O(n) both|
+|2026-06-27  | 1262. Greatest Sum Divisible by Three| Medium | DP | https://leetcode.com/problems/greatest-sum-divisible-by-three | dp[i][rem] = maximum additional sum from index i when the current sum has remainder rem (sum % 3). Either skip the current element or take it, updating the remainder as (rem + nums[i]) % 3, and choose the maximum. complexities: O(n) both|
 
 
 
